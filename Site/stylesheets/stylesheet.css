@@ -61,24 +61,74 @@ table {
 }
 
 #titre{
+	padding-left: 1em;
 	padding-top: 0.8em;
-	font-size: 3em;
+	font-size: 3.5em;
 	text-align: center;
 }
 
 #davidLogo{
-	padding-top: 1em;
+	margin-top: 1em;
+	margin-left: 0.2em;
 	position: absolute;
 	width:20%;
-}
 
-#davidLogo2{
-	display: none;
 }
 
 .border{
 	border-style: solid;
 	border-width: 1px;
+}
+
+p{
+	text-align: justify;
+}
+
+h2{
+	display: inline;
+	font-size: 1.3em;
+	margin-left: 0.5em;
+}
+
+#standEnfants{
+	width: 100%;
+}
+
+.boite{
+	width: 85%;
+	padding-top: 0.4em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 1em;
+	margin-left: 10px;
+	margin-right: auto;
+}
+
+#propos{
+	margin-top: 50%;
+}
+
+#davidLogo2{
+	width:40%;
+	float: left;
+	padding-bottom: 0.8em;
+}
+
+#stand{
+	width: 90%;
+	margin-left: 5%;
+}
+
+#davidLemon{
+	display: inline;
+	width: 50%;
+	float: right;
+	margin-bottom: auto;
+	padding-left: 0.5em;
+}
+
+#bio{
+	width: 100%;
 }
 
 /*Début de la partie grand écran*/
@@ -107,53 +157,38 @@ table {
 
 	#titre{
 		padding-top: 0.2em;
-		font-size: 5em;
+		font-size: 5.2em;
 		margin-left: 20%;
 		position: absolute;
-		margin-left: 30%;
 		display: inline-block;
 	}
 
 	#propos{
 		margin-top: 35%;
 		display: inherit;
-		padding-left: 1em;
-		width: 50%;
+		width: 52%;
 	}
 
 	#david{
 		float: left;
 		width: 17%;
+		margin: 1em 0 0 0;
 		padding-top: 1em;
 	}
 
 	#davidLogo2{
-		display: inline;
-		width:40%;
-		margin-bottom: 4em;
-	}
-
-	#davidLemon{
-		display: inline;
-		width: 60%;
-		float: right;
-		margin-bottom: auto;
-	}
-
-	#stand{
-		width: 90%;
-		margin-left: 5%;
-	}
-
-	h2{
-		display: inline;
-		font-size: 1.3em;
-		margin-left: 3em;
+		padding-bottom: 0.8em;
+		padding-top: 1em;
 	}
 
 	#sante{
 		float: right;
 		width: 17%;
 		padding-top: 1em;
+		padding-left: 0.5em;
+		padding-right: 0.5em;
 	}
+
+
+
 }
