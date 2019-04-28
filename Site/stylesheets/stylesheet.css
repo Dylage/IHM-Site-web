@@ -100,7 +100,7 @@ h2{
 	padding-left: 1em;
 	padding-right: 1em;
 	margin-top: 1em;
-	margin-left: 10px;
+	margin-left: 5%;
 	margin-right: auto;
 }
 
@@ -189,6 +189,15 @@ h2{
 		padding-right: 0.5em;
 	}
 
+	#propos p{
+		width: 48%;
+		float: left;
+	}
+
+	#standEnfants{
+		width: 50%;
+		float: right;
+	}
 
 
 }
