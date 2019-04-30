@@ -67,6 +67,10 @@ table {
 	text-align: center;
 }
 
+h1, h2{
+	font-family: 'Gochi Hand', cursive;
+}
+
 #davidLogo{
 	margin-top: 1em;
 	margin-left: 0.2em;
@@ -97,11 +101,12 @@ h2{
 .boite{
 	width: 85%;
 	padding-top: 0.4em;
-	padding-left: 1em;
-	padding-right: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 	margin-top: 1em;
 	margin-left: 5%;
 	margin-right: auto;
+	padding-bottom: 0.5em;
 }
 
 #propos{
@@ -139,15 +144,18 @@ h2{
 	}
 
 	body{
-		margin-left: 15%;
-		margin-right: 15%;
+		margin-left: 10%;
+		margin-right: 10%;
 		width: 80%;
 		display: inline-block;
 	}
 
-
 	header{
 		width: 50%;
+	}
+
+	.boite{
+		margin-left: 2%;
 	}
 
 	#background{
@@ -157,8 +165,8 @@ h2{
 
 	#titre{
 		padding-top: 0.2em;
-		font-size: 5.2em;
-		margin-left: 20%;
+		font-size: 4.5em;
+		margin-left: 14%;
 		position: absolute;
 		display: inline-block;
 	}
@@ -166,7 +174,7 @@ h2{
 	#propos{
 		margin-top: 35%;
 		display: inherit;
-		width: 52%;
+		width: 55%;
 	}
 
 	#david{
@@ -199,5 +207,9 @@ h2{
 		float: right;
 	}
 
+	/* #david, #sante{
+		position: fixed;
+
+	} */
 
 }
