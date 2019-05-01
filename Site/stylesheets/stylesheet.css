@@ -136,6 +136,29 @@ h2{
 	width: 100%;
 }
 
+#lieux{
+	height: 37em;
+}
+
+ul{
+	padding-top: 0.5em;
+	padding-left: 1em;
+	width: 85%;
+	margin-left: 2%;
+	list-style-type: disc;
+}
+
+#carte1{
+	display: none;
+}
+
+#carte2{
+	padding-left: 1em;
+	margin-top: 1em;
+	width: 85%;
+	height: 20em;
+}
+
 /*Début de la partie grand écran*/
 @media screen and (min-width:768px){
 
@@ -144,14 +167,14 @@ h2{
 	}
 
 	body{
-		margin-left: 10%;
-		margin-right: 10%;
-		width: 80%;
+		margin-left: 4%;
+		width: 93%;
 		display: inline-block;
 	}
 
 	header{
 		width: 50%;
+		margin-left: 25%;
 	}
 
 	.boite{
@@ -160,19 +183,19 @@ h2{
 
 	#background{
 		width: 40%;
-		margin-left: 20%;
 	}
 
 	#titre{
 		padding-top: 0.2em;
 		font-size: 4.5em;
-		margin-left: 14%;
+		/* margin-left: 14%; */
+		margin-left: 0;
 		position: absolute;
 		display: inline-block;
 	}
 
 	#propos{
-		margin-top: 35%;
+		margin-top: 30%;
 		display: inherit;
 		width: 55%;
 	}
@@ -182,19 +205,27 @@ h2{
 		width: 17%;
 		margin: 1em 0 0 0;
 		padding-top: 1em;
+		overflow-y: scroll;
+		height: 30em;
 	}
 
 	#davidLogo2{
 		padding-bottom: 0.8em;
-		padding-top: 1em;
+		padding-top: 1em;#lieux{
+		display: inline-block;
+		width: 95%;
+		height: 26em;
+	}
 	}
 
 	#sante{
 		float: right;
-		width: 17%;
+		width: 16%;
 		padding-top: 1em;
 		padding-left: 0.5em;
 		padding-right: 0.5em;
+		overflow-y: scroll;
+		height: 30em;
 	}
 
 	#propos p{
@@ -207,9 +238,28 @@ h2{
 		float: right;
 	}
 
-	/* #david, #sante{
-		position: fixed;
+	#lieux{
+		width: 100%;
+		display: inline-block;
+		height: 26em;
+		margin-left: 0;
+	}
 
-	} */
+	ul{
+		width: 30%;
+		float: left;
+	}
+
+	#carte2{
+		display: none;
+	}
+
+	#carte1{
+		display: inline;
+		margin-top: 1em;
+		float: right;
+		width: 65%;
+		height: 25em;
+	}
 
 }
