@@ -142,10 +142,15 @@ h2{
 
 ul{
 	padding-top: 0.5em;
-	padding-left: 1em;
+	padding-left: 2em;
 	width: 85%;
 	margin-left: 2%;
 	list-style-type: disc;
+}
+
+li{
+	padding: 0.25em 0 0.25em 0;
+	font-size: 1.2em;
 }
 
 #carte1{
@@ -238,7 +243,7 @@ ul{
 		float: right;
 	}
 
-	#lieux{
+	#lieux, #submit{
 		width: 100%;
 		display: inline-block;
 		height: 26em;
@@ -262,4 +267,7 @@ ul{
 		height: 25em;
 	}
 
+	#submit{
+		height: auto;
+	}
 }
